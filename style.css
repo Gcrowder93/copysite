@@ -1,0 +1,54 @@
+.toplinks {
+    border: 3px solid green;
+    width: 100%;
+    display: flex;
+}
+
+header {
+    border: 2px solid red;
+    display: flex;
+
+}
+
+.headerlinks {
+    border: 2px dotted cyan;
+    width: 100%;
+    display: flex; 
+
+}
+
+.headerRight {
+    border: 2px dotted blue;
+    width: 100%;
+    display: flex;
+    
+}
+
+nav {
+    border: 3px solid purple;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav span {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+}
+main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 640px 1fr 1fr;
+    grid-template-rows: 335px 335px;
+
+    grid-template-areas: 
+    "1 2 3 4 ";
+
+}
+
+#story1 {
+
+    grid-area: big;
+}
